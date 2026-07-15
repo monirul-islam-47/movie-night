@@ -6,7 +6,7 @@ link. Guests install nothing and create no account.
 ## Choose your download
 
 - **Windows 10/11, 64-bit:** `WINDOWS_ASSET`
-- **Linux x86-64:** `LINUX_APPIMAGE` or portable `LINUX_TAR`
+- **Linux x86-64:** `LINUX_APPIMAGE`, integrated `LINUX_DEB`, or portable `LINUX_TAR`
 - **macOS:** a native app is not available in this release.
 
 ## Before running
@@ -35,3 +35,5 @@ published Legal & media notice for the complete wording.
 
 The release must include `FFmpeg-Corresponding-Source.tar.xz`, its checksum,
 third-party notices, and `release-compliance.json` beside the binaries.
+The AppImage's `.zsync` metadata is provided for an explicitly user-initiated
+update; Movie Night does not check for or download updates automatically.

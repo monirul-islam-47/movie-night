@@ -31,6 +31,7 @@ h3 { margin: 5px 0 10px; font-size: 1.28rem; }
 .button:hover, .button:focus-visible { background: #ff8585; outline: 3px solid var(--accent); outline-offset: 3px; }
 .button.disabled { background: #454958; color: #c9c6c0; }
 .meta { margin-bottom: 0; color: var(--muted); font-size: .86rem; }
+.secondary-download { margin-top: 10px; font-size: .9rem; }
 .unavailable { opacity: .82; }
 .trust { display: grid; grid-template-columns: 1fr auto; gap: 30px; margin: 64px 0 28px; padding: 30px; border-left: 5px solid var(--accent); border-radius: 12px; background: var(--panel); }
 .trust p { max-width: 720px; color: var(--muted); }

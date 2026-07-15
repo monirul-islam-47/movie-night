@@ -31,8 +31,12 @@ fetch(API, { headers: { Accept: "application/vnd.github+json" } })
     wireDownload("linux-download", "linux-meta",
       matchAsset(assets, /^MovieNight-[\d.]+-linux-x86_64\.AppImage$/),
       "Download AppImage");
+    wireDownload("linux-deb-download", null,
+      matchAsset(assets, /^MovieNight-[\d.]+-linux-amd64\.deb$/),
+      "Download integrated .deb");
     wireDownload("checksums-download", null,
-      matchAsset(assets, /SHA256SUMS\.txt$/), "Download checksums");
+      matchAsset(assets, /^MovieNight-[\d.]+-SHA256SUMS\.txt$/),
+      "Download checksums");
     const status = document.getElementById("release-status");
     status.textContent = `Latest release: ${release.name || release.tag_name} · unsigned`;
   })
