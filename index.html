@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Official unsigned downloads for Movie Night — host a synchronized movie from your desktop; guests install nothing.">
+  <meta name="color-scheme" content="dark">
+  <title>Get Movie Night</title>
+  <link rel="icon" href="movie-night.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="hero">
+    <img class="logo" src="movie-night.png" width="128" height="128" alt="">
+    <p class="eyebrow">Official downloads</p>
+    <h1>Movie Night</h1>
+    <p class="lede">Host a synchronized movie from your desktop. Send one private link. <strong>Guests install nothing and create no account.</strong></p>
+    <p id="release-status" class="release-status" role="status" aria-live="polite">Checking the latest release…</p>
+  </header>
+
+  <main>
+    <section aria-labelledby="choose-heading">
+      <h2 id="choose-heading">Choose the host computer</h2>
+      <div class="platforms">
+        <article class="card">
+          <p class="platform">Windows</p>
+          <h3>Windows 10 or 11, 64-bit</h3>
+          <p>A normal per-user installer with Start menu and optional desktop shortcuts. No Docker or Python.</p>
+          <a id="windows-download" class="button" href="https://github.com/monirul-islam-47/movie-night/releases/latest">View Windows download</a>
+          <p id="windows-meta" class="meta">Versioned setup executable</p>
+        </article>
+
+        <article class="card">
+          <p class="platform">Linux</p>
+          <h3>Linux desktop, x86-64</h3>
+          <p>Use the AppImage, or the portable tar fallback where AppImage/FUSE is unavailable.</p>
+          <a id="linux-download" class="button" href="https://github.com/monirul-islam-47/movie-night/releases/latest">View Linux download</a>
+          <p id="linux-meta" class="meta">AppImage and portable tar</p>
+        </article>
+
+        <article class="card unavailable">
+          <p class="platform">macOS</p>
+          <h3>Native app not available yet</h3>
+          <p>We will not disguise an unsigned, unnotarized build as a normal one-click Mac install. Docker/source remains an advanced fallback.</p>
+          <span class="button disabled" aria-disabled="true">Coming later</span>
+          <p class="meta">Tracked separately from this release</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="trust" aria-labelledby="trust-heading">
+      <div>
+        <p class="eyebrow">Before running</p>
+        <h2 id="trust-heading">These downloads are unsigned</h2>
+        <p>Windows may show Unknown publisher or SmartScreen. Download only from this page. Compare the SHA-256 manifest to detect a changed or incomplete file.</p>
+        <p>A checksum verifies file integrity; it does not establish a legal publisher identity.</p>
+      </div>
+      <div class="trust-actions">
+        <a id="checksums-download" href="https://github.com/monirul-islam-47/movie-night/releases/latest">Checksums</a>
+        <a href="https://github.com/monirul-islam-47/movie-night/releases/latest">Release notes</a>
+      </div>
+    </section>
+
+    <section class="steps" aria-labelledby="steps-heading">
+      <p class="eyebrow">What happens next</p>
+      <h2 id="steps-heading">From download to movie night</h2>
+      <ol>
+        <li><strong>Install or open.</strong> Launch Movie Night on the host desktop.</li>
+        <li><strong>Choose a movie.</strong> Preparation progress stays visible and the room opens as soon as it is watchable.</li>
+        <li><strong>Invite your guest.</strong> Send the guest link from the room; keep the private host link to yourself.</li>
+        <li><strong>End safely.</strong> Goodnight closes the server, preparation, and connection helpers together.</li>
+      </ol>
+    </section>
+
+    <details class="advanced">
+      <summary>Advanced: Docker, source, and portable alternatives</summary>
+      <p>Docker and source remain supported for technical hosts and as the temporary macOS fallback. The Linux portable tar is available beside the AppImage.</p>
+      <p><a href="https://github.com/monirul-islam-47/movie-night/releases/latest">Open all release assets</a></p>
+    </details>
+  </main>
+
+  <footer>
+    <p>Published by Mama Marketing · No analytics, advertising, cookies, or third-party scripts.</p>
+  </footer>
+  <script src="downloads.js" defer></script>
+</body>
+</html>
