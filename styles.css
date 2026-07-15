@@ -40,6 +40,9 @@ h3 { margin: 5px 0 10px; font-size: 1.28rem; }
 .steps li { padding: 20px; border: 1px solid var(--border); border-radius: 14px; background: var(--panel); color: var(--muted); counter-increment: steps; }
 .steps li::before { content: counter(steps); display: block; color: var(--accent); font-size: 1.8rem; font-weight: 900; }
 .steps strong { display: block; color: var(--text); }
+.product-shot { margin: 14px auto 60px; }
+.product-shot img { display: block; width: min(100%, 780px); height: auto; margin: auto; border: 1px solid var(--border); border-radius: 14px; box-shadow: 0 20px 60px #0008; }
+.product-shot figcaption { margin-top: 12px; color: var(--muted); text-align: center; }
 .advanced { margin: 20px 0 60px; padding: 20px; border: 1px solid var(--border); border-radius: 14px; background: var(--panel); }
 .advanced summary { cursor: pointer; font-weight: 800; }
 footer { padding: 24px 0 50px; border-top: 1px solid var(--border); color: var(--muted); font-size: .9rem; }
