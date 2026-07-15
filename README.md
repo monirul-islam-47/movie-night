@@ -18,3 +18,8 @@ Official page: <https://monirul-islam-47.github.io/movie-night/>
 - Release assets are built and tested in the private source repository, then
   published here with a narrowly scoped GitHub credential.
 - This site contains no analytics, advertising, cookies, or third-party scripts.
+- Movie Night is an independent personal project and is not affiliated with a business or company.
+- Releases recommend lawful, non-pirated media and include the no-warranty and
+  user-responsibility notice in `legal.html`.
+- A release is incomplete without the exact FFmpeg corresponding-source archive
+  and `release-compliance.json` beside its binaries.

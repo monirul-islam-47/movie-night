@@ -24,3 +24,14 @@ to close the server, preparation, and connection helpers together.
 
 System requirements, exact artifact sizes, checksums, test evidence, and
 third-party notices accompany this release.
+
+## Lawful media and warranty
+
+Use only media you own or are authorized to copy and share. We recommend
+lawful, non-pirated sources. The host is responsible for their selected media,
+recipients, and compliance with applicable law. Movie Night is provided as is,
+without guarantees, to the maximum extent permitted by applicable law. See the
+published Legal & media notice for the complete wording.
+
+The release must include `FFmpeg-Corresponding-Source.tar.xz`, its checksum,
+third-party notices, and `release-compliance.json` beside the binaries.
